@@ -1,0 +1,43 @@
+.cabecalho{
+    background-color: #04234b;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.botao_cabecalho{
+    display: flex;
+    align-items: center;
+}
+.imagem_cabecalho{
+    padding: 1em;
+}
+.lista_menu{
+    display: none;
+    
+}
+.botao_cabecalho_1:checked ~ .lista_menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: #04234b;
+    width: 60vw;
+}
+.item_lista_menu{
+    padding: 2em;
+}
+.link_lista_menu{
+    color: white;
+}
+
+.grid {
+    grid-template-columns: repeat(8, ifr);
+    grid-template-rows: repeat(9, ifr);
+    max-height: 99vh;
+    display: grid;
+}
+.banner_pŕincipal{
+    grid-row: 1;
+    grid-column: 1/9;
+    text-align: center;
+}
